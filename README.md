@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Inventory Management Dashboard
 
-## Getting Started
+A simple Product Inventory Management system built using Next.js (App Router) and React Context API.
 
-First, run the development server:
+This project allows users to:
 
-```bash
+Add products
+
+Edit products
+
+Delete products
+
+Search products by name
+
+Filter products by category
+
+View dashboard statistics
+
+# Project Setup Instructions
+
+Follow these steps to run the project locally:
+
+1️. Clone the Repository
+git clone https://github.com/farida-mullamitha/inventory-dashboard.git
+
+2️. Navigate to Project Folder
+cd your-project-folder
+
+3️. Install Dependencies
+npm install
+
+4️. Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5️. Open in Browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+You will be redirected to the Dashboard page.
 
-To learn more about Next.js, take a look at the following resources:
+# Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Data is stored using React Context.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All dashboard values update dynamically.
 
-## Deploy on Vercel
+Application is responsive.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No external backend is used.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Tech Stack
+
+Next.js (App Router)
+
+React
+
+Context API (Global State Management)
+
+Tailwind CSS
+
+# Endpoints
+
+Dashboard Page (/dashboard)
+Products Page (/products)
+Add Product (/products/add)
+Edit Product (/products/edit/[id])
