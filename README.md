@@ -21,16 +21,16 @@ View dashboard statistics
 Follow these steps to run the project locally:
 
 1️. Clone the Repository
-git clone https://github.com/farida-mullamitha/inventory-dashboard.git
+(git clone https://github.com/farida-mullamitha/inventory-dashboard.git)
 
 2️. Navigate to Project Folder
-cd your-project-folder
+(cd your-project-folder)
 
 3️. Install Dependencies
-npm install
+(npm install)
 
 4️. Run Development Server
-npm run dev
+(npm run dev)
 
 5️. Open in Browser
 
